@@ -1,0 +1,204 @@
+{
+  "augeas": {
+    "version": "1.12.0"
+  },
+  "disks": {
+    "sda": {
+      "model": "HARDDISK",
+      "size": "10.00 GiB",
+      "size_bytes": 10737418240,
+      "vendor": "VBOX"
+    },
+    "sdb": {
+      "model": "HARDDISK",
+      "size": "10.00 MiB",
+      "size_bytes": 10485760,
+      "vendor": "VBOX"
+    }
+  },
+  "dmi": {
+    "bios": {
+      "release_date": "12/01/2006",
+      "vendor": "innotek GmbH",
+      "version": "VirtualBox"
+    },
+    "board": {
+      "manufacturer": "Oracle Corporation",
+      "product": "VirtualBox",
+      "serial_number": "0"
+    },
+    "chassis": {
+      "asset_tag": "",
+      "type": "Other"
+    },
+    "manufacturer": "innotek GmbH",
+    "product": {
+      "name": "VirtualBox",
+      "serial_number": "0",
+      "uuid": "BEC84F42-AF6D-9741-A6E0-B444228FF173"
+    }
+  },
+  "facterversion": "4.0.15",
+  "filesystems": "btrfs,ext2,ext3,ext4,fuseblk,iso9660,squashfs,vfat",
+  "fips_enabled": false,
+  "gem_version": "~> 4.0.0",
+  "identity": {
+    "gid": 0,
+    "group": "root",
+    "privileged": true,
+    "uid": 0,
+    "user": "root"
+  },
+  "kernel": "Linux",
+  "kernelmajversion": "4.15",
+  "kernelrelease": "4.15.0-74-generic",
+  "kernelversion": "4.15.0",
+  "load_averages": {
+    "15m": 0.13,
+    "1m": 0.33,
+    "5m": 0.3
+  },
+  "memory": {
+    "system": {
+      "available": "324.52 MiB",
+      "available_bytes": 336781312,
+      "capacity": "67.39%",
+      "total": "985.00 MiB",
+      "total_bytes": 1032843264,
+      "used": "661.30 MiB",
+      "used_bytes": 693428224
+    }
+  },
+  "networking": {
+    "fqdn": "foo.",
+    "hostname": "foo",
+    "interfaces": {
+      "enp0s3": {
+        "bindings": [
+          {
+            "address": "10.0.2.15",
+            "netmask": "255.255.255.0",
+            "network": "10.0.2.0"
+          }
+        ],
+        "bindings6": [
+          {
+            "address": "fe80::6f:f9ff:fe1e:39dc",
+            "netmask": "ffff:ffff:ffff:ffff::",
+            "network": "fe80::"
+          }
+        ]
+      },
+      "lo": {
+        "bindings": [
+          {
+            "address": "127.0.0.1",
+            "netmask": "255.0.0.0",
+            "network": "127.0.0.0"
+          }
+        ],
+        "bindings6": [
+          {
+            "address": "::1",
+            "netmask": "ffff:ffff:ffff:ffff:ffff:ffff:ffff:ffff",
+            "network": "::1"
+          }
+        ]
+      }
+    },
+    "ip": "10.0.2.15",
+    "mac": "02:6f:f9:1e:39:dc",
+    "primary": "enp0s3"
+  },
+  "os": {
+    "architecture": "amd64",
+    "distro": {
+      "codename": "bionic",
+      "description": "Ubuntu 18.04.3 LTS",
+      "id": "Ubuntu",
+      "release": {
+        "full": "18.04",
+        "major": "18",
+        "minor": "4"
+      }
+    },
+    "family": "Debian",
+    "hardware": "x86_64",
+    "name": "Ubuntu",
+    "release": {
+      "full": "18.04",
+      "major": "18",
+      "minor": "4"
+    },
+    "selinux": {
+      "enabled": false
+    }
+  },
+  "partitions": {
+    "/dev/sda1": {
+      "filesystem": "ext4",
+      "label": "cloudimg-rootfs",
+      "partuuid": "2050cd76-01",
+      "size": "10.00 GiB",
+      "size_bytes": 10736352768,
+      "uuid": "22d612d6-934b-4d55-995d-16aeb1bc5d8a"
+    }
+  },
+  "path": "/home/vagrant/vendor/bundler/ruby/2.5.0/bin:/opt/puppetlabs/puppet/bin:/opt/puppetlabs/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/snap/bin",
+  "processors": {
+    "count": 2,
+    "isa": "x86_64",
+    "models": [
+      "Intel(R) Core(TM) i5-2500K CPU @ 3.30GHz",
+      "Intel(R) Core(TM) i5-2500K CPU @ 3.30GHz"
+    ],
+    "physicalcount": 1
+  },
+  "puppetversion": "6.6.0",
+  "ruby": {
+    "platform": "x86_64-linux",
+    "sitedir": "/opt/puppetlabs/puppet/lib/ruby/site_ruby/2.5.0",
+    "version": "2.5.3"
+  },
+  "ssh": {
+    "dsa": {
+      "fingerprints": {
+        "sha1": "SSHFP 2 1 4260bfc50d2bcdf73fb48312a9ed0ae0df8dbaae",
+        "sha256": "SSHFP 2 2 217c63df16c148ea77a81793437d9be32b17809c7f343ebe4716e8fcd00016b2"
+      },
+      "key": "AAAAB3NzaC1kc3MAAACBAOlXTurdSLOKYcDbSHDSJr7l3QlUSFvDY9HVSsZjfRhOXtXJR/iTeXCmxsHcP2Vv9RAexzBnIL9C9vjD90RXo4u3f+zrTlLcjzKdu2ki3j/XbzsuxbTbdoKhz1/RFArEtoU4nkrPm5qast+/I4+OdN7W8mNoxirkhU1LqwFbLk5lAAAAFQDFyLQLDpgBL03amzUPODZfc/XX8QAAAIB47pn1IUe9ZTXR2yg8lpM2LyWFPtAGtL9zziJqwCzCtF7fw+MerIviaqMDDaAtwTrjQNFEN5nikWCMvWPjJN905LfvEoY98N+z1NW/ZRZUuVc+xtAPRN9Mg4D9JkWrOwCtV2dDKFy5w0D3hKIgp0ORLzEY/vcQ/C31aCQ7FaF8AAAAAIBGRvZccKyqXuEZcnowhNjAQdq0IBPr7KrZxf+VaFnflHwP5PROlBQgCqVBGq/m5rFaXhIDH0RHaMQXt2syykwF/CBM+NPguSnzQ9gpsQL58ePRQSJuVy9LMO2YqEucZtiCjO8olXaHw0zseOy43qf+z4fYVhbaiMoVV6Vxiq3vOw==",
+      "type": "ssh-dss"
+    },
+    "ecdsa": {
+      "fingerprints": {
+        "sha1": "SSHFP 3 1 899248e6c1ac8e1e70ea1463874924ac6344ab95",
+        "sha256": "SSHFP 3 2 f670aaa107a05808cea4b9c1c1f5830f61560ba29536aeb96d779cd7cf397336"
+      },
+      "key": "AAAAE2VjZHNhLXNoYTItbmlzdHAyNTYAAAAIbmlzdHAyNTYAAABBBDefLebff7+bzObB7hEK60Toy+mivgU2+1yb1WFv0CbSNur9N8sOG3h4gOIT0s2xUstYECftcWRz1RMRQ854NSg=",
+      "type": "ecdsa-sha2-nistp256"
+    },
+    "ed25519": {
+      "fingerprints": {
+        "sha1": "SSHFP 4 1 7d2a207faf9cada0517c7cfff8073d277049e472",
+        "sha256": "SSHFP 4 2 8adcec3a34dc36fc4fe2ce200bf1840c3d4b4271910ff21878ffdab8f37e0113"
+      },
+      "key": "AAAAC3NzaC1lZDI1NTE5AAAAIIYw04gozH4Np1oWtbW/oAxHrdjg+Xlw5MfbCRiB8jQe",
+      "type": "ssh-ed25519"
+    },
+    "rsa": {
+      "fingerprints": {
+        "sha1": "SSHFP 1 1 3a5f026ae42a783d8046d29fd849fa6c5ef90c63",
+        "sha256": "SSHFP 1 2 263c9ea10209c5465a6b4ac37f98539f095e31475502b5c19ce104f24755cf98"
+      },
+      "key": "AAAAB3NzaC1yc2EAAAADAQABAAABAQDTB7tufGMu/0/g1N3/15NrP88HL40++2Z65ivccdBQEScwX5rEnichL1vzN2GyEeOgKXwgUA4RdHF7QulWYW7p0Zpbjxfpf8AEW7sXWeke7Bj6pD7TX7cDup7kfrkhOJsqjnb4ZJL37dVjiWju4HBPEKOCd0HWylWJ5euO4mfu7crYdav9yrSX3wfXCINc6TaFNTYPwJzOm/T0AuVfM7wGFGqWdPFjrTuVh9HXi/XA2xj8NXa+J1x2YkTTcn+XREUw1YT7M02YBsPK6jPkQw012SgKMUZ/YgdaoEvmXngfpTiSQRLxi7X9mR3M2bdxNnKQKh89YOaYdSjZ2Euhhip1",
+      "type": "ssh-rsa"
+    }
+  },
+  "system_uptime": {
+    "days": 0,
+    "hours": 0,
+    "seconds": 192,
+    "uptime": "0:03 hours"
+  },
+  "timezone": "UTC"
+}
